@@ -1,6 +1,7 @@
 plugins {
     kotlin("jvm") version "2.1.21"
     alias(libs.plugins.kotlin.serialization)
+    application
 }
 
 group = "org.example"
@@ -29,4 +30,8 @@ tasks.test {
 }
 kotlin {
     jvmToolchain(17)
+}
+
+application {
+    mainClass.set("org.example.MainKt")
 }

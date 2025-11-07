@@ -3,8 +3,9 @@
 ## Versions
 
 - **Kotlin**: 2.1.21
+- **Koog**: 0.5.2
 - **Ktor**: 3.0.3
-- **Gradle**: 8.x (via wrapper)
+- **Gradle**: 8.14
 - **Java**: 17
 
 ## How to Run

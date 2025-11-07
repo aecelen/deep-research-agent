@@ -17,7 +17,7 @@
 
 2. Run the agent:
 ```bash
-./gradlew run
+./gradlew run --console=plain
 ```
 
 3. Enter your research prompt when asked.
